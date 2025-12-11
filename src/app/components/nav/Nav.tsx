@@ -28,6 +28,8 @@ export const Nav = () => {
           <div className="logo">
             <Image
               src={logo}
+              priority
+              loading="eager"
               alt="carrb"
               className="max-w-[6.8125em] max-h-[2.12em]"
             />
@@ -116,7 +118,7 @@ export const Nav = () => {
             )}
           </button>
         </div>
-      {navOpen && <MobileNav />}
+        {navOpen && <MobileNav />}
       </nav>
     </>
   );

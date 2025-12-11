@@ -12,7 +12,9 @@ const Footer = () => {
         <div className=" md:w-[518px] flex flex-col gap-[17px] max-md:h-[152.92px] h-[107.9]">
           {/* Logo */}
           <div className="logo">
-            <Image priority
+            <Image
+              priority
+              loading="eager"
               src={logo}
               alt="carrb"
               className="max-w-[6.8125em] max-h-[2.12em]"

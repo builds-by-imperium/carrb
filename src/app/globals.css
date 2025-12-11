@@ -22,7 +22,7 @@ body {
 
 .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/hero1.jpg");
+    url("/hero1.webp");
   height: 90vh;
   width: 100%;
   background-position: center;
@@ -55,7 +55,7 @@ body {
       rgba(0, 0, 0, 0.5) 50%,
       rgba(0, 0, 0, 0.8) 100%
     ),
-    url("/hero3.jpg");
+    url("/hero3.webp");
 
   height: 60vh;
   width: 100%;
@@ -72,7 +72,7 @@ body {
       rgba(0, 0, 0, 0.5) 50%,
       rgba(0, 0, 0, 0.8) 100%
     ),
-    url("/hero4.jpg");
+    url("/hero4.webp");
 
   height: 60vh;
   width: 100%;
