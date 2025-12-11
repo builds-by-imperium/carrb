@@ -36,7 +36,7 @@ const About = () => {
           </div>
         </div>
         <div className="">
-          <Image src={man} alt="Happy Man" />
+          <Image src={man} alt="Happy Man" priority/>
         </div>
       </div>
       <Footer />

@@ -42,7 +42,7 @@ const Hero = () => {
         viewport={{ once: true }}
         className="absolute top-0 right-[53px] max-sm:w-[54.81px] max-sm:right-[25px]"
       >
-        <Image src={arrowdown} alt="arrow down" />
+        <Image src={arrowdown} alt="arrow down" priority />
       </motion.div>
 
       {/* Text + Button with stagger */}
@@ -83,7 +83,7 @@ const Hero = () => {
         viewport={{ once: true }}
         className="absolute bottom-0 left-[53px] max-sm:w-[54.81px] max-sm:left-[25px]"
       >
-        <Image src={arrowup} alt="arrow up" />
+        <Image src={arrowup} alt="arrow up" priority />
       </motion.div>
     </section>
   );

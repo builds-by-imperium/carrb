@@ -22,7 +22,7 @@ body {
 
 .hero {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../assets/hero1.jpg");
+    url("/hero1.jpg");
   height: 90vh;
   width: 100%;
   background-position: center;
@@ -38,7 +38,7 @@ body {
       rgba(0, 0, 0, 0.5) 50%,
       rgba(0, 0, 0, 0.8) 100%
     ),
-    url("../assets/hero2.png");
+    url("/hero2.png");
 
   height: 60vh;
   width: 100%;
@@ -55,7 +55,7 @@ body {
       rgba(0, 0, 0, 0.5) 50%,
       rgba(0, 0, 0, 0.8) 100%
     ),
-    url("../assets/hero3.jpg");
+    url("/hero3.jpg");
 
   height: 60vh;
   width: 100%;
@@ -72,7 +72,7 @@ body {
       rgba(0, 0, 0, 0.5) 50%,
       rgba(0, 0, 0, 0.8) 100%
     ),
-    url("../assets/hero4.jpg");
+    url("/hero4.jpg");
 
   height: 60vh;
   width: 100%;
@@ -84,7 +84,7 @@ body {
 
 .banner {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../assets/banner.png");
+    url("/banner.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -101,7 +101,7 @@ body {
 }
 
 .earning {
-  background-image: url("../assets/man.png");
+  background-image: url("/man.png");
   /* height: 548px;
   width: 80%; */
   background-position: center;

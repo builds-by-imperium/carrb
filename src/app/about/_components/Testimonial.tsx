@@ -7,9 +7,9 @@ const Testimonial = () => {
   return (
     <section className=" px-[6%] md:px-[4%] lg:px-[8%] flex flex-col my-15 max-md:gap-30 gap-50 items-center justify-center">
       <div className="flex max-md:flex-col justify-center max-md:gap-[30px] gap-[77px] w-full">
-        <Image src={man1} alt="man1" />
+        <Image priority src={man1} alt="man1" />
         <div className="md:w-[708px] flex flex-col gap-[21px]">
-          <Image src={quote} alt="quote" />
+          <Image priority src={quote} alt="quote" />
           <div className=" flex flex-col gap-[21px] ml-10 md:ml-20">
             <p className="text-[#07102A] max-md:text-[16px] text-[18px] font-medium">
               Although some days might be challenging, it’s when you step back
@@ -27,9 +27,9 @@ const Testimonial = () => {
         </div>
       </div>
       <div className="flex max-md:flex-col flex-row-reverse justify-center gap-[77px] w-full">
-        <Image src={man1} alt="man1" />
+        <Image priority src={man1} alt="man1" />
         <div className="md:w-[708px] flex flex-col gap-[21px]">
-          <Image src={quote} alt="quote" />
+          <Image priority src={quote} alt="quote" />
           <div className=" flex flex-col gap-[21px] ml-10 md:ml-20">
             <p className="text-[#07102A] max-md:text-[16px] text-[18px] font-medium leading-6">
               Although some days might be challenging, it’s when you step back

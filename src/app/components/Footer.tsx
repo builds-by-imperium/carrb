@@ -12,7 +12,7 @@ const Footer = () => {
         <div className=" md:w-[518px] flex flex-col gap-[17px] max-md:h-[152.92px] h-[107.9]">
           {/* Logo */}
           <div className="logo">
-            <Image
+            <Image priority
               src={logo}
               alt="carrb"
               className="max-w-[6.8125em] max-h-[2.12em]"
@@ -40,13 +40,13 @@ const Footer = () => {
             <li className=" font-medium text-[20px]">Socials</li>
             <div className="flex items-center gap-5">
               <li>
-                <Image src={x} alt="x"/>
+                <Image priority src={x} alt="x" />
               </li>
-               <li>
-                <Image src={facebook} alt="x"/>
+              <li>
+                <Image priority src={facebook} alt="x" />
               </li>
-               <li>
-                <Image src={instagram} alt="x"/>
+              <li>
+                <Image priority src={instagram} alt="x" />
               </li>
             </div>
           </ul>

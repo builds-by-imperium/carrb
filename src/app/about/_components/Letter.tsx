@@ -1,8 +1,7 @@
-import CtaSoild from '@/app/components/btn/CtaSolid';
-import Image from 'next/image';
-import React from 'react'
+import CtaSoild from "@/app/components/btn/CtaSolid";
+import Image from "next/image";
+import React from "react";
 import ceo from "@/assets/ceo.png";
-
 
 const Letter = () => {
   return (
@@ -20,10 +19,10 @@ const Letter = () => {
         </div>
       </div>
       <div className="">
-        <Image src={ceo} alt="CEO" className="" />
+        <Image src={ceo} alt="CEO" className="" priority />
       </div>
     </div>
   );
-}
+};
 
-export default Letter
+export default Letter;
