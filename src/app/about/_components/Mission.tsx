@@ -2,7 +2,7 @@ import React from 'react'
 
 const Mission = () => {
   return (
-    <div className="bg-[#0B3B87] w-full max-md:h-auto px-[6%] md:px-[4%] lg:px-[8%] flex justify-center flex-col gap-[21] max-md:py-10 max-md:my-5 max-lg:py-15 lg:h-[50vh]">
+    <div className="bg-[#0B3B87] w-full max-md:h-auto px-[6%] md:px-[4%] lg:px-[8%] flex justify-center flex-col gap-[21] max-md:py-10 max-md:my-5 max-lg:py-15 lg:h-[60vh] xl:h-[50vh]">
       <h2 className="capitalize text-white font-semibold text-[32px]">
         Our mission statement{" "}
       </h2>
