@@ -5,13 +5,13 @@ import Hero from "./components/home/Hero";
 const Home = () => {
   return (
     // <Loader />
-    <div className="">
+    <>
       <Nav />
       <Hero />
       <Body />
       <Footer />
       <div className="bg-[#1049A1] w-full m-0! p-0! h-[23px]"></div>
-    </div>
+    </>
   );
 };
 

@@ -1,6 +1,9 @@
 import Image from "next/image";
 import React from "react";
 import logo from "@/assets/logo.png";
+import x from "@/assets/X.png";
+import facebook from "@/assets/facebook.png";
+import instagram from "@/assets/instagram.png";
 
 const Footer = () => {
   return (
@@ -35,6 +38,17 @@ const Footer = () => {
 
           <ul className="flex flex-col gap-3.5">
             <li className=" font-medium text-[20px]">Socials</li>
+            <div className="flex items-center gap-5">
+              <li>
+                <Image src={x} alt="x"/>
+              </li>
+               <li>
+                <Image src={facebook} alt="x"/>
+              </li>
+               <li>
+                <Image src={instagram} alt="x"/>
+              </li>
+            </div>
           </ul>
         </div>
       </section>

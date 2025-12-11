@@ -51,7 +51,7 @@ const Hero = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: true, amount: 0.2 }}
-        className="max-w-[54.94em] flex flex-col items-center"
+        className="lg:max-w-[54.94em] flex flex-col items-center"
       >
         <motion.h1
           variants={item}
