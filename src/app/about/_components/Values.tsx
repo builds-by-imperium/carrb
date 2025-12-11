@@ -2,7 +2,7 @@ import React from "react";
 
 const Values = () => {
   return (
-    <section className="bg-[#0B3B87] w-full h-auto md:h-[50vh] px-[6%] md:px-[4%] lg:px-[8%] flex justify-center flex-col gap-[21] max-md:py-10 max-md:my-5 max-lg:py-15 lg:h-[60vh] xl:h-[50vh]">
+    <section className="bg-[#0B3B87] w-full h-auto md:h-[50vh] px-[6%] md:px-[4%] lg:px-[8%] flex justify-center flex-col gap-[21] max-md:py-10 max-md:my-5 max-lg:py-15 lg:h-auto lg:py-20">
       <h2 className="text-[36px] font-semibold leading-[52px] text-white">
         Our Values
       </h2>

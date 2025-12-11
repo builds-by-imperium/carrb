@@ -26,7 +26,7 @@ const About = () => {
       <Letter />
       <Values />
       <Testimonial />
-      <div className="bg-[#0B3B87] w-full h-auto md:h-[50vh] px-[6%] md:px-[4%] lg:px-[8%] flex max-md:flex-col justify-between items-center gap-[21] max-md:py-10 max-md:my-5 max-lg:py-15 lg:h-[60vh] xl:h-[50vh]">
+      <div className="bg-[#0B3B87] w-full h-auto md:h-[50vh] px-[6%] md:px-[4%] lg:px-[8%] flex max-md:flex-col justify-between items-center gap-[21] max-md:py-10 max-md:my-5 max-lg:py-15 lg:h-auto">
         <div className="w-full md:w-[50.2%] flex flex-col gap-[37px] max-md:justify-center max-md:items-center">
           <h2 className="max-md:text-[24px] capitalize text-[48px] font-semibold text-white max-md:text-center">
             Join us to make cities for people, not cars
