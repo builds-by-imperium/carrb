@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     siteName: "Carrb",
     images: [
       {
-        url: "/logo.png",
+        url: "/favicon.png",
         width: 1200,
         height: 630,
         alt: "Carrb Hero Image",

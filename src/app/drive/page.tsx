@@ -13,7 +13,7 @@ import Banner from "../components/home/Banner";
 import Footer from "../components/Footer";
 import Faq from "./_components/Faq";
 import type { Metadata } from "next";
- 
+
 const data = [
   {
     icon: calender,
@@ -32,13 +32,12 @@ const data = [
   },
 ];
 
-
-export const metadata:Metadata = {
+export const metadata: Metadata = {
   title: " Make money driving with Carrb in Auchi",
   description:
     "Become a Carrb driver, set your schedule and earn money by driving!",
   metadataBase: new URL("https://carrb.vercel.app"), // ensures absolute URLs for OG images
-    icons: {
+  icons: {
     icon: "/favicon.png",
   },
   openGraph: {
@@ -49,7 +48,7 @@ export const metadata:Metadata = {
     siteName: "Carrb",
     images: [
       {
-        url: "/logo.png", // logo in your public folder
+        url: "/favicon.png", // logo in your public folder
         width: 1200,
         height: 630,
         alt: "Carrb Logo",
@@ -65,7 +64,6 @@ export const metadata:Metadata = {
     images: ["/logo.png"], // logo for Twitter card
   },
 };
-
 
 const Drive = () => {
   return (
