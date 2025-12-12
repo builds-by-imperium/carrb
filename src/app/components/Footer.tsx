@@ -4,6 +4,7 @@ import logo from "@/assets/logo.png";
 import x from "@/assets/X.png";
 import facebook from "@/assets/facebook.png";
 import instagram from "@/assets/instagram.png";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -42,13 +43,25 @@ const Footer = () => {
             <li className=" font-medium text-[20px]">Socials</li>
             <div className="flex items-center gap-5">
               <li>
-                <Image priority src={x} alt="x" />
+                <a
+                  href="https://x.com/Mrgrahamx?t=38-SjWLo961D7CGCZIZyXQ&s=09"
+                  target="_blank"
+                >
+                  <Image priority src={x} alt="x" />
+                </a>
               </li>
               <li>
-                <Image priority src={facebook} alt="x" />
+                <a
+                  href="https://x.com/Mrgrahamx?t=38-SjWLo961D7CGCZIZyXQ&s=09"
+                  target="_blank"
+                >
+                  <Image priority src={facebook} alt="x" />
+                </a>
               </li>
               <li>
-                <Image priority src={instagram} alt="x" />
+                <a href="https://www.instagram.com/carrb.ng_" target="_blank">
+                  <Image priority src={instagram} alt="x" />
+                </a>
               </li>
             </div>
           </ul>
