@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     title: "Carrb | Make money driving with Carrb in Auchi",
     description:
       "Become a Carrb driver, set your schedule and earn money by driving!",
-    images: ["/logo.png"], // logo for Twitter card
+    images: ["/favicon.png"], // logo for Twitter card
   },
 };
 const Ride = () => {

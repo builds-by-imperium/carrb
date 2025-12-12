@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Frequently Asked Questions",
     description: "We’re here to answer questions you have.",
-    images: ["/logo.png"], // logo for Twitter card
+    images: ["/favicon.png"], // logo for Twitter card
   },
 };
 const Faq = () => {

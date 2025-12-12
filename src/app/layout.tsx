@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Carrb - Transport Service in Auchi",
     description:
       "Looking for a reliable transport service in auchi?   Carrb connects you with reliable drivers for fast and affordable rides. Book in seconds, track in real-time, and enjoy safe journeys.",
-    images: ["/logo.png"],
+    images: ["/favicon.png"],
   },
 };
 

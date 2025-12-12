@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     title: "Ride Smarter, Arrive Faster, Your Reliable Ride-Hailing Partner",
     description:
       "Experience seamless, affordable rides across the city with our user-friendly app. Book in seconds, track in real-time, and enjoy safe, comfortable journeys every time. Whether it's daily commutes or late-night adventures, we've got you covered.",
-    images: ["/logo.png"], // logo for Twitter card
+    images: ["/favicon.png"], // logo for Twitter card
   },
 };
 
