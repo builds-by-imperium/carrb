@@ -11,6 +11,40 @@ import Mission from "./_components/Mission";
 import Values from "./_components/Values";
 import Letter from "./_components/Letter";
 import Imagining from "./_components/Imagining";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "We Are Carrb",
+  description:
+    "We’re passionate about solving problems. We take on challenges others deem impossible.",
+  metadataBase: new URL("https://carrb.vercel.app"), // ensures correct absolute URLs
+  icons: {
+    icon: "/favicon.png",
+  },
+  openGraph: {
+    title: "We Are Carrb",
+    description:
+      "We’re passionate about solving problems. We take on challenges others deem impossible.",
+    url: "https://carrb.vercel.app",
+    siteName: "Carrb",
+    images: [
+      {
+        url: "/favicon.png", // or your logo
+        width: 1200,
+        height: 630,
+        alt: "Carrb Logo",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "We Are Carrb",
+    description:
+      "We’re passionate about solving problems. We take on challenges others deem impossible.",
+    images: ["/favicon.png"], // logo for Twitter cards
+  },
+};
 
 const About = () => {
   return (

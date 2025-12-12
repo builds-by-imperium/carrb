@@ -4,7 +4,38 @@ import Hero from "../components/Hero";
 import Banner from "../components/home/Banner";
 import Footer from "../components/Footer";
 import Faqs from "@/app/drive/_components/Faq";
+import type { Metadata } from "next";
 
+export const metadata: Metadata = {
+  title: "Frequently Asked Questions",
+  description: "We’re here to answer questions you have.",
+  metadataBase: new URL("https://carrb.vercel.app"), // ensures absolute URLs for OG images
+
+  icons: {
+    icon: "/favicon.png",
+  },
+  openGraph: {
+    title: "Frequently Asked Questions",
+    description: "We’re here to answer questions you have.",
+    url: "https://carrb.vercel.app",
+    siteName: "Carrb",
+    images: [
+      {
+        url: "/logo.png", // logo in your public folder
+        width: 1200,
+        height: 630,
+        alt: "Carrb Logo",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Frequently Asked Questions",
+    description: "We’re here to answer questions you have.",
+    images: ["/logo.png"], // logo for Twitter card
+  },
+};
 const Faq = () => {
   return (
     <section>

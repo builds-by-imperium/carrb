@@ -11,18 +11,22 @@ const inter = Inter({
 
 // SEO metadata
 export const metadata: Metadata = {
-  title: "Carrb - Ride Smarter, Earn Faster",
+  title: "Carrb - Transport Service in Auchi",
   description:
-    "Carrb connects you with reliable drivers for fast and affordable rides. Book in seconds, track in real-time, and enjoy safe journeys.",
+    "Looking for a reliable transport service in auchi? Carrb connects you with reliable drivers for fast and affordable rides. Book in seconds, track in real-time, and enjoy safe journeys.",
+  icons: {
+    icon: "/favicon.png",
+  },
+
   openGraph: {
-    title: "Carrb - Ride Smarter, Earn Faster",
+    title: "Carrb - Transport Service in Auchi",
     description:
-      "Carrb connects you with reliable drivers for fast and affordable rides. Book in seconds, track in real-time, and enjoy safe journeys.",
-    url: "https://www.carrb.com",
+      "Looking for a reliable transport service in auchi?   Carrb connects you with reliable drivers for fast and affordable rides. Book in seconds, track in real-time, and enjoy safe journeys.",
+    url: "https://carrb.vercel.app",
     siteName: "Carrb",
     images: [
       {
-        url: "/assets/hero1.jpg",
+        url: "/logo.png",
         width: 1200,
         height: 630,
         alt: "Carrb Hero Image",
@@ -32,10 +36,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Carrb - Ride Smarter, Earn Faster",
+    title: "Carrb - Transport Service in Auchi",
     description:
-      "Carrb connects you with reliable drivers for fast and affordable rides. Book in seconds, track in real-time, and enjoy safe journeys.",
-    images: ["/assets/hero1.jpg"],
+      "Looking for a reliable transport service in auchi?   Carrb connects you with reliable drivers for fast and affordable rides. Book in seconds, track in real-time, and enjoy safe journeys.",
+    images: ["/logo.png"],
   },
 };
 
@@ -64,7 +68,10 @@ export default function RootLayout({
           sizes="180x180"
           href="/apple-touch-icon.png"
         />
+        <link rel="shortcut icon" href="/favicon-32x32.png" type="image/png" />
+        <link rel="canonical" href="https://carrb.vercel.app" />
       </head>
+
       <body className={`${inter.variable} antialiased`}>
         <RootLoader>
           <main>{children}</main>

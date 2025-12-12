@@ -59,7 +59,7 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="https://www.instagram.com/carrb.ng_" target="_blank">
+                <a href="https://instagram.com/carrb.ng_" target="_blank">
                   <Image priority src={instagram} alt="x" />
                 </a>
               </li>

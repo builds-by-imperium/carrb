@@ -12,6 +12,8 @@ import StepServices from "../components/home/StepServices";
 import Banner from "../components/home/Banner";
 import Footer from "../components/Footer";
 import Faq from "./_components/Faq";
+import type { Metadata } from "next";
+ 
 const data = [
   {
     icon: calender,
@@ -29,6 +31,42 @@ const data = [
     text: "You’ll receive orders from our large network of riders anytime you’re online.",
   },
 ];
+
+
+export const metadata:Metadata = {
+  title: " Make money driving with Carrb in Auchi",
+  description:
+    "Become a Carrb driver, set your schedule and earn money by driving!",
+  metadataBase: new URL("https://carrb.vercel.app"), // ensures absolute URLs for OG images
+    icons: {
+    icon: "/favicon.png",
+  },
+  openGraph: {
+    title: "Carrb | Make money driving with Carrb in Auchi",
+    description:
+      "Become a Carrb driver, set your schedule and earn money by driving!",
+    url: "https://carrb.vercel.app",
+    siteName: "Carrb",
+    images: [
+      {
+        url: "/logo.png", // logo in your public folder
+        width: 1200,
+        height: 630,
+        alt: "Carrb Logo",
+      },
+    ],
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Carrb | Make money driving with Carrb in Auchi",
+    description:
+      "Become a Carrb driver, set your schedule and earn money by driving!",
+    images: ["/logo.png"], // logo for Twitter card
+  },
+};
+
+
 const Drive = () => {
   return (
     <>

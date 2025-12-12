@@ -12,7 +12,7 @@ const Loader = () => {
         width={150}
         height={150}
       /> */}
-      <Image src={Logo} alt="Carrb" className="animate-pulse " />
+      <Image src={Logo} alt="Carrb" className="animate-pulse " loading="eager" />
     </section>
   );
 };
