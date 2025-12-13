@@ -37,7 +37,7 @@ export const metadata: Metadata = {
     "Hop in a Carrb ride and relax—your safety is always our priority.",
   metadataBase: new URL("https://carrb.vercel.app"), // ensures absolute URLs for OG images
   icons: {
-    icon: "/favicon.png",
+    icon: "/favicon-32x32.png",
   },
   openGraph: {
     title: "Carrb | Make money driving with Carrb in Auchi",
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     siteName: "Carrb",
     images: [
       {
-        url: "/favicon.png", // logo in your public folder
+        url: "/favicon-32x32.png", // logo in your public folder
         width: 1200,
         height: 630,
         alt: "Carrb Logo",
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     title: "Carrb | Make money driving with Carrb in Auchi",
     description:
       "Become a Carrb driver, set your schedule and earn money by driving!",
-    images: ["/favicon.png"], // logo for Twitter card
+    images: ["/favicon-32x32.png"], // logo for Twitter card
   },
 };
 const Ride = () => {

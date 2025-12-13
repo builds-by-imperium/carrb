@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   description:
     "Looking for a reliable transport service in auchi? Carrb connects you with reliable drivers for fast and affordable rides. Book in seconds, track in real-time, and enjoy safe journeys.",
   icons: {
-    icon: "/favicon.png",
+    icon: "/favicon-32x32.png",
   },
 
   openGraph: {
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     siteName: "Carrb",
     images: [
       {
-        url: "/favicon.png",
+        url: "/favicon-32x32.png",
         width: 1200,
         height: 630,
         alt: "Carrb Hero Image",
@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     title: "Carrb - Transport Service in Auchi",
     description:
       "Looking for a reliable transport service in auchi?   Carrb connects you with reliable drivers for fast and affordable rides. Book in seconds, track in real-time, and enjoy safe journeys.",
-    images: ["/favicon.png"],
+    images: ["/favicon-32x32.png"],
   },
 };
 

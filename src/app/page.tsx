@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     "Experience seamless, affordable rides across the city with our user-friendly app. Book in seconds, track in real-time, and enjoy safe, comfortable journeys every time. Whether it's daily commutes or late-night adventures, we've got you covered.",
   metadataBase: new URL("https://carrb.vercel.app"), // ensures absolute URLs for OG images
   icons: {
-    icon: "/favicon.png",
+    icon: "/favicon-32x32.png",
   },
   openGraph: {
     title: "Ride Smarter, Arrive Faster, Your Reliable Ride-Hailing Partner",
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     siteName: "Carrb",
     images: [
       {
-        url: "/favicon.png", // logo in your public folder
+        url: "/favicon-32x32.png", // logo in your public folder
         width: 1200,
         height: 630,
         alt: "Carrb Logo",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     title: "Ride Smarter, Arrive Faster, Your Reliable Ride-Hailing Partner",
     description:
       "Experience seamless, affordable rides across the city with our user-friendly app. Book in seconds, track in real-time, and enjoy safe, comfortable journeys every time. Whether it's daily commutes or late-night adventures, we've got you covered.",
-    images: ["/favicon.png"], // logo for Twitter card
+    images: ["/favicon-32x32.png"], // logo for Twitter card
   },
 };
 

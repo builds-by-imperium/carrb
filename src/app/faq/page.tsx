@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://carrb.vercel.app"), // ensures absolute URLs for OG images
 
   icons: {
-    icon: "/favicon.png",
+    icon: "/favicon-32x32.png",
   },
   openGraph: {
     title: "Frequently Asked Questions",
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     siteName: "Carrb",
     images: [
       {
-        url: "/favicon.png", // logo in your public folder
+        url: "/favicon-32x32.png", // logo in your public folder
         width: 1200,
         height: 630,
         alt: "Carrb Logo",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Frequently Asked Questions",
     description: "We’re here to answer questions you have.",
-    images: ["/favicon.png"], // logo for Twitter card
+    images: ["/favicon-32x32.png"], // logo for Twitter card
   },
 };
 const Faq = () => {
