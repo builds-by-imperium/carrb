@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     siteName: "Carrb",
     images: [
       {
-        url: "/favicon-32x32.png", // logo in your public folder
+        url: "/favicon.png", // logo in your public folder
         width: 1200,
         height: 630,
         alt: "Carrb Logo",

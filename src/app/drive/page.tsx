@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     "Become a Carrb driver, set your schedule and earn money by driving!",
   metadataBase: new URL("https://carrb.vercel.app"), // ensures absolute URLs for OG images
   icons: {
-    icon: "/favicon-32x32.png",
+    icon: "/favicon.png",
   },
   openGraph: {
     title: "Carrb | Make money driving with Carrb in Auchi",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     siteName: "Carrb",
     images: [
       {
-        url: "/favicon-32x32.png", // logo in your public folder
+        url: "/favicon.png", // logo in your public folder
         width: 1200,
         height: 630,
         alt: "Carrb Logo",

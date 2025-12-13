@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     siteName: "Carrb",
     images: [
       {
-        url: "/favicon-32x32.png", // or your logo
+        url: "/favicon.png", // or your logo
         width: 1200,
         height: 630,
         alt: "Carrb Logo",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     title: "We Are Carrb",
     description:
       "We’re passionate about solving problems. We take on challenges others deem impossible.",
-    images: ["/favicon-32x32.png"], // logo for Twitter cards
+    images: ["/favicon.png"], // logo for Twitter cards
   },
 };
 
