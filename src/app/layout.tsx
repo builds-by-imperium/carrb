@@ -71,6 +71,10 @@ export default function RootLayout({
         />
         <link rel="shortcut icon" href="/favicon-32x32.png" type="image/png" />
         {/* <link rel="canonical" href="https://carrb.vercel.app" /> */}
+        <meta
+          name="google-site-verification"
+          content="ByRUnwix0oO0aMAG6RtG064o540Bp-Y3rW9UlqLJFAA"
+        />
       </head>
 
       <body className={`${inter.variable} antialiased`}>
