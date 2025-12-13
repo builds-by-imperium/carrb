@@ -56,6 +56,7 @@ export default function RootLayout({
           type="image/png"
           sizes="32x32"
           href="/favicon-32x32.png"
+          // href="/favicon-32x32.png"
         />
         <link
           rel="icon"
@@ -69,7 +70,7 @@ export default function RootLayout({
           href="/apple-touch-icon.png"
         />
         <link rel="shortcut icon" href="/favicon-32x32.png" type="image/png" />
-        <link rel="canonical" href="https://carrb.vercel.app" />
+        {/* <link rel="canonical" href="https://carrb.vercel.app" /> */}
       </head>
 
       <body className={`${inter.variable} antialiased`}>
